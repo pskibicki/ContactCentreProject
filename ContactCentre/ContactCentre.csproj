@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>7081c1dc-0e50-42f9-8201-6b083b3cc9a3</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.11.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ContactCentre.Map\ContactCentre.Map.csproj" />
+    <ProjectReference Include="..\ContactCentre.Repository\ContactCentre.Repository.csproj" />
+    <ProjectReference Include="..\ContactCentre.Service\ContactCentre.Service.csproj" />
+  </ItemGroup>
+
+</Project>
