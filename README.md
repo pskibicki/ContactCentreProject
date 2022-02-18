@@ -9,7 +9,7 @@ You can use docker or local IIS - it's web API so it has to be hosted.
 Test run in Visual Studio or via command dotnet test.
 
 ## What technologies / libraries / programming paradigms have you chosen? Why?
- - Web API in .NET Core,
+ - Web API in .NET Core (.NET 5),
  - Swagger UI as presentation layer,
  - AutoMapper,
  - xUnit and Moq for tests,
